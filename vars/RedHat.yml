@@ -8,5 +8,6 @@ postfix_packages:
   - 'heirloom-mailx'
   - 'libsasl2-2'
   - 'libsasl2-modules'
+  - 'cyrus-sasl-plain'
   - 'mailutils'
   - 'postfix'
