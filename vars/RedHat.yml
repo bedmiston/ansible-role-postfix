@@ -1,5 +1,5 @@
 ---
-# Defines variables for Debian/Ubuntu
+# Defines variables for RedHat/Centos
 
 postfix_config_dir: '/etc/postfix'
 postfix_service: 'postfix'
