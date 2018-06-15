@@ -42,8 +42,9 @@
 
 - name: Install packages for RedHat derivatives
   yum: >
-    name=postfix
+    name={{ item }}
     state=latest
+  with_items: '{{ postfix_packages }}'
   when: ansible_os_family == 'RedHat'
   tags:
     - common
